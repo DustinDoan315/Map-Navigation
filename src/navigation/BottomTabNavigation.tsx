@@ -11,7 +11,6 @@ import {bottom} from '@screens/bottom';
 import {color} from '@theme/index';
 import {getIcon, screenName} from '@utils/helper';
 import BottomSheet from '@components/BottomSheet';
-import Create from '@components/Create';
 const Tab = createBottomTabNavigator();
 
 const TabButton: React.FC<
@@ -54,8 +53,6 @@ const TabButton: React.FC<
 const NullComponent = () => null;
 
 const BottomContainer = () => {
-  const [showBottomSheet, setShowBottomSheet] = useState<boolean>(false);
-
   return (
     <>
       <Tab.Navigator
@@ -82,11 +79,6 @@ const BottomContainer = () => {
           }}
         />
       </Tab.Navigator>
-      {showBottomSheet && (
-        <BottomSheet setShowBottomSheet={setShowBottomSheet}>
-          <Create setShowBottomSheet={setShowBottomSheet} />
-        </BottomSheet>
-      )}
     </>
   );
 };

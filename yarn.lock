@@ -3215,7 +3215,6 @@ __metadata:
     react-native-splash-screen: ^3.3.0
     react-native-svg: ^15.3.0
     react-native-vector-icons: ^10.1.0
-    react-native-video: ^6.3.0
     react-redux: ^9.1.2
     react-test-renderer: 18.2.0
     redux-persist: ^6.0.0
@@ -8664,16 +8663,6 @@ __metadata:
     fa6-upgrade: bin/fa6-upgrade.sh
     generate-icon: bin/generate-icon.js
   checksum: c1e1d7c7ccc110e99caaed4d57324d5331dfa91817183350d2fd4df16d2302e7363da1f7a2b87011da3936b77aac3a7bf8ee11844dd8786b8b7dbc6553494866
-  languageName: node
-  linkType: hard
-
-"react-native-video@npm:^6.3.0":
-  version: 6.4.2
-  resolution: "react-native-video@npm:6.4.2"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 774c57725b6142b33d588a04c1df19dc5f4d7c403c91ed45ab9e56f4ead109abfb7a04009a2db210e6d6e868234dda628172c20eda60edfec1cd5cff02ddc6e9
   languageName: node
   linkType: hard
 
