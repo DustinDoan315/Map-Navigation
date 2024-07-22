@@ -55,9 +55,4 @@ export const icons = {
   subscribe_focus: require('./AppIcons/subscribe_focus.png'),
   library: require('./AppIcons/library.png'),
   library_focus: require('./AppIcons/library_focus.png'),
-
-  //video
-  video_1: require('./video/video_1.mp4'),
-  short_1: require('./video/short_1.mp4'),
-  short_2: require('./video/short_2.mp4'),
 };

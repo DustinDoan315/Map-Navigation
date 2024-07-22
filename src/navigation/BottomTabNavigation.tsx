@@ -81,55 +81,6 @@ const BottomContainer = () => {
             headerLeft: NullComponent,
           }}
         />
-
-        <Tab.Screen
-          name={router.SHORT_SCREEN}
-          component={bottom[router.SHORT_SCREEN]}
-          options={{
-            tabBarShowLabel: false,
-            tabBarButton: (props: any) => (
-              <TabButton {...props} name={screenName.short} />
-            ),
-            headerLeft: NullComponent,
-          }}
-        />
-        <Tab.Screen
-          name={'3'}
-          component={bottom[router.SHORT_SCREEN]}
-          options={{
-            tabBarShowLabel: false,
-            tabBarButton: (props: any) => (
-              <TabButton
-                {...props}
-                name={screenName.create}
-                setShowBottomSheet={setShowBottomSheet}
-              />
-            ),
-            headerLeft: NullComponent,
-          }}
-        />
-        <Tab.Screen
-          name={router.SUBSCRIPTION}
-          component={bottom[router.SUBSCRIPTION]}
-          options={{
-            tabBarShowLabel: false,
-            tabBarButton: (props: any) => (
-              <TabButton {...props} name={screenName.subscription} />
-            ),
-            headerLeft: NullComponent,
-          }}
-        />
-        <Tab.Screen
-          name={router.LIBRARY}
-          component={bottom[router.LIBRARY]}
-          options={{
-            tabBarShowLabel: false,
-            tabBarButton: (props: any) => (
-              <TabButton {...props} name={screenName.library} />
-            ),
-            headerLeft: NullComponent,
-          }}
-        />
       </Tab.Navigator>
       {showBottomSheet && (
         <BottomSheet setShowBottomSheet={setShowBottomSheet}>
